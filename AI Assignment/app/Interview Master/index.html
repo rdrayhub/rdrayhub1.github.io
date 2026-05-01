@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep Master</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Interview Prep Master</h1>
+        <p>Level up your interview skills by practicing daily.</p>
+    </header>
+
+    <section class="stats-dashboard">
+        <div class="stat-box">
+            <span class="stat-icon" id="rank-icon">🌱</span>
+            <div class="stat-details">
+                <h3 id="user-rank">Novice</h3>
+                <p>Current Rank</p>
+            </div>
+        </div>
+        <div class="stat-box">
+            <span class="stat-icon" id="streak-icon">📅</span>
+            <div class="stat-details">
+                <h3><span id="streak-count">0</span> Days</h3>
+                <p>Practice Streak</p>
+            </div>
+        </div>
+        <div class="stat-box">
+            <span class="stat-icon">🎯</span>
+            <div class="stat-details">
+                <h3><span id="practiced-count">0</span></h3>
+                <p>Total Practiced</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="controls">
+        <input type="text" id="search-bar" placeholder="Search for a specific question or topic...">
+    </section>
+
+    <main id="question-container">
+        </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
